@@ -31,6 +31,7 @@ const scrapeMediasFromUrls = async (
     const user_id = req.user.id;
     const success_domains: string[] = [];
     const error_domains: string[] = [];
+    const error_messages: string[] = [];
 
     await Promise.all(
       urlList.map(async (urlItem: string) => {
@@ -40,6 +41,7 @@ const scrapeMediasFromUrls = async (
           success_domains.push(urlItem);
         } catch (error) {
           error_domains.push(urlItem);
+          error_messages.push(error.message);
         }
       })
     );
@@ -47,6 +49,7 @@ const scrapeMediasFromUrls = async (
     res.status(200).json({
       success_domains,
       error_domains,
+      error_messages,
     });
   } catch (error) {
     next(error);

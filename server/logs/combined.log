@@ -15118,3 +15118,213 @@ pptr:evaluate;%2FUsers%2Fphuvietdang%2FDesktop%2FProjects%2Fpersonal%2Fmomos-ass
 24-11-2024 18:24:38 info: OPTIONS /api/medias?page=1&limit=10&searchKey=vietnam 204 in 0ms
 24-11-2024 18:24:38 info: GET /api/medias?page=1&limit=10&searchKey=vietnam
 24-11-2024 18:24:38 info: GET /api/medias?page=1&limit=10&searchKey=vietnam 200 in 22ms
+24-11-2024 22:53:35 info: OPTIONS /api/auth/sign-up
+24-11-2024 22:53:35 info: OPTIONS /api/auth/sign-up 204 in 11ms
+24-11-2024 22:53:35 info: POST /api/auth/sign-up
+24-11-2024 22:53:35 info: POST /api/auth/sign-up 201 in 147ms
+24-11-2024 22:53:38 info: OPTIONS /api/auth/sign-in
+24-11-2024 22:53:38 info: OPTIONS /api/auth/sign-in 204 in 1ms
+24-11-2024 22:53:38 info: POST /api/auth/sign-in
+24-11-2024 22:53:38 info: POST /api/auth/sign-in 201 in 106ms
+24-11-2024 22:53:38 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 22:53:38 info: OPTIONS /api/medias?page=1&limit=10 204 in 0ms
+24-11-2024 22:53:38 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 22:53:38 info: OPTIONS /api/medias?page=1&limit=10 204 in 0ms
+24-11-2024 22:53:38 info: GET /api/medias?page=1&limit=10
+24-11-2024 22:53:38 info: GET /api/medias?page=1&limit=10 304 in 77ms
+24-11-2024 22:53:38 info: GET /api/medias?page=1&limit=10
+24-11-2024 22:53:38 info: GET /api/medias?page=1&limit=10 304 in 10ms
+24-11-2024 22:53:44 info: OPTIONS /api/medias/scrape-urls
+24-11-2024 22:53:44 info: OPTIONS /api/medias/scrape-urls 204 in 1ms
+24-11-2024 22:53:44 info: POST /api/medias/scrape-urls
+24-11-2024 22:54:12 info: POST /api/medias/scrape-urls 200 in 27701ms
+24-11-2024 22:54:12 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 22:54:12 info: OPTIONS /api/medias?page=1&limit=10 204 in 1ms
+24-11-2024 22:54:12 info: GET /api/medias?page=1&limit=10
+24-11-2024 22:54:12 info: GET /api/medias?page=1&limit=10 200 in 14ms
+24-11-2024 22:55:08 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 22:55:08 info: OPTIONS /api/medias?page=1&limit=10 204 in 0ms
+24-11-2024 22:55:08 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 22:55:08 info: OPTIONS /api/medias?page=1&limit=10 204 in 1ms
+24-11-2024 22:55:08 info: GET /api/medias?page=1&limit=10
+24-11-2024 22:55:08 info: GET /api/medias?page=1&limit=10 304 in 48ms
+24-11-2024 22:55:08 info: GET /api/medias?page=1&limit=10
+24-11-2024 22:55:08 info: GET /api/medias?page=1&limit=10 304 in 17ms
+24-11-2024 22:55:14 info: OPTIONS /api/medias/scrape-urls
+24-11-2024 22:55:14 info: OPTIONS /api/medias/scrape-urls 204 in 2ms
+24-11-2024 22:55:14 info: POST /api/medias/scrape-urls
+24-11-2024 22:55:20 info: POST /api/medias/scrape-urls 200 in 6384ms
+24-11-2024 22:55:20 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 22:55:20 info: OPTIONS /api/medias?page=1&limit=10 204 in 0ms
+24-11-2024 22:55:20 info: GET /api/medias?page=1&limit=10
+24-11-2024 22:55:20 info: GET /api/medias?page=1&limit=10 304 in 13ms
+24-11-2024 22:57:42 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 22:57:42 info: OPTIONS /api/medias?page=1&limit=10 204 in 1ms
+24-11-2024 22:57:42 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 22:57:42 info: OPTIONS /api/medias?page=1&limit=10 204 in 1ms
+24-11-2024 22:57:42 info: GET /api/medias?page=1&limit=10
+24-11-2024 22:57:42 info: GET /api/medias?page=1&limit=10 200 in 49ms
+24-11-2024 22:57:42 info: GET /api/medias?page=1&limit=10
+24-11-2024 22:57:42 info: GET /api/medias?page=1&limit=10 304 in 10ms
+24-11-2024 22:57:49 info: OPTIONS /api/medias/scrape-urls
+24-11-2024 22:57:49 info: OPTIONS /api/medias/scrape-urls 204 in 1ms
+24-11-2024 22:57:49 info: POST /api/medias/scrape-urls
+24-11-2024 22:57:57 info: POST /api/medias/scrape-urls 200 in 7730ms
+24-11-2024 22:57:57 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 22:57:57 info: OPTIONS /api/medias?page=1&limit=10 204 in 0ms
+24-11-2024 22:57:57 info: GET /api/medias?page=1&limit=10
+24-11-2024 22:57:57 info: GET /api/medias?page=1&limit=10 304 in 17ms
+24-11-2024 22:58:43 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 22:58:43 info: OPTIONS /api/medias?page=1&limit=10 204 in 5ms
+24-11-2024 22:58:43 info: GET /api/medias?page=1&limit=10
+24-11-2024 22:58:43 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 22:58:43 info: OPTIONS /api/medias?page=1&limit=10 204 in 0ms
+24-11-2024 22:58:43 info: GET /api/medias?page=1&limit=10 403 in 171ms
+24-11-2024 22:58:43 info: GET /api/medias?page=1&limit=10
+24-11-2024 22:58:43 info: GET /api/medias?page=1&limit=10 403 in 6ms
+24-11-2024 22:58:49 info: OPTIONS /api/auth/sign-in
+24-11-2024 22:58:49 info: OPTIONS /api/auth/sign-in 204 in 1ms
+24-11-2024 22:58:49 info: POST /api/auth/sign-in
+24-11-2024 22:58:49 error: Error: User not found - Error: User not found
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/modules/auth/auth.controller.ts:33:13
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/modules/auth/auth.controller.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+24-11-2024 22:58:49 info: POST /api/auth/sign-in 500 in 31ms
+24-11-2024 22:58:52 info: POST /api/auth/sign-in
+24-11-2024 22:58:52 error: Error: User not found - Error: User not found
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/modules/auth/auth.controller.ts:33:13
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/modules/auth/auth.controller.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+24-11-2024 22:58:52 info: POST /api/auth/sign-in 500 in 7ms
+24-11-2024 22:59:04 info: OPTIONS /api/auth/sign-up
+24-11-2024 22:59:04 info: OPTIONS /api/auth/sign-up 204 in 0ms
+24-11-2024 22:59:04 info: POST /api/auth/sign-up
+24-11-2024 22:59:04 info: POST /api/auth/sign-up 201 in 121ms
+24-11-2024 22:59:09 info: OPTIONS /api/auth/sign-in
+24-11-2024 22:59:09 info: OPTIONS /api/auth/sign-in 204 in 1ms
+24-11-2024 22:59:09 info: POST /api/auth/sign-in
+24-11-2024 22:59:09 info: POST /api/auth/sign-in 201 in 98ms
+24-11-2024 22:59:09 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 22:59:09 info: OPTIONS /api/medias?page=1&limit=10 204 in 4ms
+24-11-2024 22:59:09 info: GET /api/medias?page=1&limit=10
+24-11-2024 22:59:09 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 22:59:09 info: OPTIONS /api/medias?page=1&limit=10 204 in 0ms
+24-11-2024 22:59:09 info: GET /api/medias?page=1&limit=10 200 in 16ms
+24-11-2024 22:59:09 info: GET /api/medias?page=1&limit=10
+24-11-2024 22:59:09 info: GET /api/medias?page=1&limit=10 304 in 3ms
+24-11-2024 22:59:15 info: OPTIONS /api/medias/scrape-urls
+24-11-2024 22:59:15 info: OPTIONS /api/medias/scrape-urls 204 in 1ms
+24-11-2024 22:59:15 info: POST /api/medias/scrape-urls
+24-11-2024 22:59:44 info: POST /api/medias/scrape-urls 200 in 28616ms
+24-11-2024 22:59:44 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 22:59:44 info: OPTIONS /api/medias?page=1&limit=10 204 in 1ms
+24-11-2024 22:59:44 info: GET /api/medias?page=1&limit=10
+24-11-2024 22:59:44 info: GET /api/medias?page=1&limit=10 200 in 9ms
+24-11-2024 23:00:36 info: OPTIONS /api/medias/scrape-urls
+24-11-2024 23:00:36 info: OPTIONS /api/medias/scrape-urls 204 in 7ms
+24-11-2024 23:00:36 info: POST /api/medias/scrape-urls
+24-11-2024 23:00:56 info: POST /api/medias/scrape-urls 200 in 20069ms
+24-11-2024 23:00:56 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:00:56 info: OPTIONS /api/medias?page=1&limit=10 204 in 1ms
+24-11-2024 23:00:56 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:00:56 info: GET /api/medias?page=1&limit=10 200 in 8ms
+24-11-2024 23:01:25 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:01:25 info: OPTIONS /api/medias?page=1&limit=10 204 in 20ms
+24-11-2024 23:01:25 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:01:25 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:01:25 info: OPTIONS /api/medias?page=1&limit=10 204 in 2ms
+24-11-2024 23:01:25 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:01:25 info: GET /api/medias?page=1&limit=10 304 in 145ms
+24-11-2024 23:01:25 info: GET /api/medias?page=1&limit=10 200 in 100ms
+24-11-2024 23:01:25 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:01:25 info: GET /api/medias?page=1&limit=10 304 in 34ms
+24-11-2024 23:01:25 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:01:25 info: GET /api/medias?page=1&limit=10 304 in 15ms
+24-11-2024 23:01:29 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:01:29 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:01:29 info: GET /api/medias?page=1&limit=10 304 in 69ms
+24-11-2024 23:01:29 info: GET /api/medias?page=1&limit=10 304 in 26ms
+24-11-2024 23:01:29 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:01:29 info: GET /api/medias?page=1&limit=10 304 in 19ms
+24-11-2024 23:01:29 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:01:29 info: GET /api/medias?page=1&limit=10 304 in 35ms
+24-11-2024 23:01:30 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:01:30 info: OPTIONS /api/medias?page=1&limit=10 204 in 1ms
+24-11-2024 23:01:30 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:01:31 info: GET /api/medias?page=1&limit=10 304 in 7ms
+24-11-2024 23:01:31 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:01:31 info: OPTIONS /api/medias?page=1&limit=10 204 in 1ms
+24-11-2024 23:01:31 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:01:31 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:01:31 info: GET /api/medias?page=1&limit=10 304 in 15ms
+24-11-2024 23:01:31 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:01:31 info: GET /api/medias?page=1&limit=10 304 in 20ms
+24-11-2024 23:01:31 info: GET /api/medias?page=1&limit=10 304 in 19ms
+24-11-2024 23:01:33 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:01:33 info: GET /api/medias?page=1&limit=10 304 in 5ms
+24-11-2024 23:01:34 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:01:34 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:01:34 info: GET /api/medias?page=1&limit=10 304 in 9ms
+24-11-2024 23:01:34 info: GET /api/medias?page=1&limit=10 304 in 13ms
+24-11-2024 23:01:34 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:01:34 info: GET /api/medias?page=1&limit=10 304 in 9ms
+24-11-2024 23:01:53 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:01:53 info: OPTIONS /api/medias?page=1&limit=10 204 in 2ms
+24-11-2024 23:01:53 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:01:53 info: OPTIONS /api/medias?page=1&limit=10 204 in 1ms
+24-11-2024 23:01:53 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:01:53 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:01:53 info: OPTIONS /api/medias?page=1&limit=10 204 in 0ms
+24-11-2024 23:01:53 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:01:53 info: GET /api/medias?page=1&limit=10 304 in 65ms
+24-11-2024 23:01:53 info: GET /api/medias?page=1&limit=10 304 in 54ms
+24-11-2024 23:01:53 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:01:53 info: GET /api/medias?page=1&limit=10 304 in 3ms
+24-11-2024 23:01:53 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:01:53 info: GET /api/medias?page=1&limit=10 304 in 8ms
+24-11-2024 23:01:55 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:01:55 info: GET /api/medias?page=1&limit=10 304 in 4ms
+24-11-2024 23:01:55 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:01:55 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:01:55 info: GET /api/medias?page=1&limit=10 304 in 7ms
+24-11-2024 23:01:55 info: GET /api/medias?page=1&limit=10 304 in 9ms
+24-11-2024 23:01:55 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:01:55 info: GET /api/medias?page=1&limit=10 304 in 4ms
+24-11-2024 23:01:56 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:01:56 info: GET /api/medias?page=1&limit=10 304 in 5ms
+24-11-2024 23:01:57 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:01:57 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:01:57 info: GET /api/medias?page=1&limit=10 304 in 29ms
+24-11-2024 23:01:57 info: GET /api/medias?page=1&limit=10 304 in 45ms
+24-11-2024 23:01:57 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:01:57 info: GET /api/medias?page=1&limit=10 304 in 5ms
+24-11-2024 23:02:10 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:02:10 info: OPTIONS /api/medias?page=1&limit=10 204 in 8ms
+24-11-2024 23:02:10 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:02:10 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:02:10 info: OPTIONS /api/medias?page=1&limit=10 204 in 0ms
+24-11-2024 23:02:10 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:02:10 info: GET /api/medias?page=1&limit=10 304 in 80ms
+24-11-2024 23:02:10 info: GET /api/medias?page=1&limit=10 304 in 103ms
+24-11-2024 23:02:10 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:02:10 info: GET /api/medias?page=1&limit=10 304 in 3ms
+24-11-2024 23:02:10 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:02:10 info: GET /api/medias?page=1&limit=10 304 in 17ms
+24-11-2024 23:02:12 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:02:12 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:02:12 info: GET /api/medias?page=1&limit=10 304 in 27ms
+24-11-2024 23:02:12 info: GET /api/medias?page=1&limit=10 304 in 18ms
+24-11-2024 23:02:12 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:02:12 info: GET /api/medias?page=1&limit=10 304 in 8ms
+24-11-2024 23:02:12 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:02:12 info: GET /api/medias?page=1&limit=10 304 in 11ms
+24-11-2024 23:02:30 info: OPTIONS /api/medias/scrape-urls
+24-11-2024 23:02:30 info: OPTIONS /api/medias/scrape-urls 204 in 3ms
+24-11-2024 23:02:30 info: POST /api/medias/scrape-urls
+24-11-2024 23:02:50 info: POST /api/medias/scrape-urls 200 in 19367ms
+24-11-2024 23:02:50 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:02:50 info: OPTIONS /api/medias?page=1&limit=10 204 in 0ms
+24-11-2024 23:02:50 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:02:50 info: GET /api/medias?page=1&limit=10 200 in 4ms

@@ -91,8 +91,13 @@ const Home = () => {
 
     try {
       const res = await MediaApi.scrapeMediaFromUrls(urlList);
-      openSuccessNotification(res.success_domains);
-      openErrorNotification(res.error_domains);
+      if (res.success_domains?.length) {
+        openSuccessNotification(res.success_domains);
+      }
+      if (res.error_domains?.length) {
+        openErrorNotification(res.error_domains);
+      }
+
       setOpenModal(false);
       setUrlString("");
 

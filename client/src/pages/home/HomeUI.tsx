@@ -1,4 +1,4 @@
-import { Button, Input, List, Modal, Pagination, Select } from "antd";
+import { Button, Input, List, Modal, Pagination, Select, Tag } from "antd";
 import TextArea from "antd/es/input/TextArea";
 import MediaItem from "../../components/MediaItem/MediaItem";
 import { IMediaList, MediaEnum } from "../../services/media/media.type";
@@ -19,8 +19,8 @@ interface HomeUIProps {
 
 const mediaTypeOptions = [
   { label: "All", value: null },
-  { label: "Image", value: MediaEnum.IMAGE },
-  { label: "video", value: MediaEnum.VIDEO },
+  { label: <Tag color="#87d068">Image</Tag>, value: MediaEnum.IMAGE },
+  { label: <Tag color="#f50">Video</Tag>, value: MediaEnum.VIDEO },
 ];
 
 const HomeUI = (props: HomeUIProps) => {

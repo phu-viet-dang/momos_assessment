@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:dev": "nodemon src/index.ts",
     "build": "rimraf ./build && tsc -b",
-    "start": "node build/index.js"
+    "start": "npx sequelize-cli db:migrate && node build/index.js"
   },
   "author": "",
   "license": "ISC",

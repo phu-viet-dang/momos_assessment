@@ -1,14 +1,14 @@
 import { Sequelize } from "sequelize-typescript";
 import UserModel from "../models/user.model";
 import MediaModel from "../models/media.model";
-import { development } from "./database";
+require("dotenv").config();
 
 const sequelize = new Sequelize({
-  username: development.username,
-  password: development.password,
-  database: "postgres",
-  host: development.host,
-  port: +development.port,
+  username: process.env.DB_USERNAME,
+  password: process.env.DB_PASSWORD,
+  database: process.env.DB_DATABASE,
+  host: process.env.DB_HOST,
+  port: +process.env.DB_PORT,
   dialect: "postgres",
 });
 

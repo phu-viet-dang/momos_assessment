@@ -65,7 +65,8 @@ const scrapeMedia = async (
 ): Promise<CreateMediaDto[]> => {
   // Launch Puppeteer
   const browser = await puppeteer.launch({
-    headless: false,
+    //Disable security of Chrome protecting device
+    args: ["--no-sandbox", "--disable-setuid-sandbox"],
   });
 
   try {
@@ -75,13 +76,13 @@ const scrapeMedia = async (
     await page.setJavaScriptEnabled(true);
 
     await page.goto(url, {
-      waitUntil: "domcontentloaded",
+      waitUntil: "load",
       timeout: 30000,
     });
 
     // Navigate to the provided URL
     await page.goto(url, {
-      waitUntil: "domcontentloaded",
+      waitUntil: "load",
       timeout: 30000,
     });
 
@@ -177,7 +178,7 @@ const autoScroll = async (page: Page) => {
           clearInterval(timer);
           resolve();
         }
-      }, 140);
+      }, 200);
     });
   });
 };

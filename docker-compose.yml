@@ -1,57 +1,49 @@
 services:
   postgres:
-    container_name: ra-postgres
     image: postgres:16
+    container_name: scraper-db
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: password
-      POSTGRES_DB: local_ra
+      POSTGRES_DB: scraper
     ports:
       - 5432:5432
     volumes:
-      - ./local_ra.sql:/local_ra.sql
-      - local-ra:/var/lib/postgresql/data
+      - local-volume:/var/lib/postgresql/data
     networks:
-      - local-ra
+      - local-network
 
-  redis:
-    container_name: ra-redis
-    image: redis
-    ports:
-      - 6379:6379
-    networks:
-      - local-ra
-
-  nestjs:
-    container_name: ra-be
-    platform: linux/amd64
+  reactjs:
+    container_name: scraper-fe
     build:
-      context: ./rival-ambassador-be
-    image: phuvietdang/ra-be:latest
-    ports:
-      - 3001:3001
-    networks:
-      - local-ra
-    depends_on:
-      - redis
-      - postgres
-
-  nextjs:
-    container_name: ra-fe
-    build:
-      context: ./rival-ambassador-fe
-    image: phuvietdang/ra-fe:latest
+      context: ./client
+      dockerfile: Dockerfile
+    image: scraper-fe:latest
     ports:
       - 3000:3000
     networks:
-      - local-ra
+      - local-network
     depends_on:
-      - nestjs
+      - postgres
+      - nodejs
+
+  nodejs:
+    container_name: scraper-be
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    image: scraper-be:latest
+    ports:
+      - 3001:3001
+    networks:
+      - local-network
+    depends_on:
+      - postgres
 
 volumes:
-  local-ra:
+  local-volume:
 
 networks:
-  local-ra:
-    name: local-ra
+  local-network:
+    name: local-network
     driver: bridge
