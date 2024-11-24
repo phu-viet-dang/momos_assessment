@@ -15328,3 +15328,689 @@ pptr:evaluate;%2FUsers%2Fphuvietdang%2FDesktop%2FProjects%2Fpersonal%2Fmomos-ass
 24-11-2024 23:02:50 info: OPTIONS /api/medias?page=1&limit=10 204 in 0ms
 24-11-2024 23:02:50 info: GET /api/medias?page=1&limit=10
 24-11-2024 23:02:50 info: GET /api/medias?page=1&limit=10 200 in 4ms
+24-11-2024 23:28:10 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:28:10 info: OPTIONS /api/medias?page=1&limit=10 204 in 3ms
+24-11-2024 23:28:10 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:28:10 info: OPTIONS /api/medias?page=1&limit=10 204 in 0ms
+24-11-2024 23:28:10 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:28:10 error: Error: jwt malformed - JsonWebTokenError: jwt malformed
+    at Object.module.exports (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/jsonwebtoken/verify.js:70:17)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:7:36
+    at Generator.next (<anonymous>)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:27:12)
+    at authMiddleware (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:4:64)
+    at Layer.handle [as handle_request] (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:328:13)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:286:9
+24-11-2024 23:28:10 info: GET /api/medias?page=1&limit=10 500 in 23ms
+24-11-2024 23:28:10 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:28:10 error: Error: jwt malformed - JsonWebTokenError: jwt malformed
+    at Object.module.exports (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/jsonwebtoken/verify.js:70:17)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:7:36
+    at Generator.next (<anonymous>)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:27:12)
+    at authMiddleware (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:4:64)
+    at Layer.handle [as handle_request] (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:328:13)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:286:9
+24-11-2024 23:28:10 info: GET /api/medias?page=1&limit=10 500 in 1ms
+24-11-2024 23:28:10 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:28:10 info: OPTIONS /api/medias?page=1&limit=10 204 in 0ms
+24-11-2024 23:28:10 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:28:10 info: OPTIONS /api/medias?page=1&limit=10 204 in 1ms
+24-11-2024 23:28:10 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:28:10 info: GET /api/medias?page=1&limit=10 200 in 117ms
+24-11-2024 23:28:10 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:28:10 info: GET /api/medias?page=1&limit=10 304 in 4ms
+24-11-2024 23:28:29 info: OPTIONS /api/auth/sign-in
+24-11-2024 23:28:29 info: OPTIONS /api/auth/sign-in 204 in 2ms
+24-11-2024 23:28:29 info: POST /api/auth/sign-in
+24-11-2024 23:28:29 info: POST /api/auth/sign-in 201 in 149ms
+24-11-2024 23:28:29 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:28:29 info: OPTIONS /api/medias?page=1&limit=10 204 in 1ms
+24-11-2024 23:28:29 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:28:29 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:28:29 info: OPTIONS /api/medias?page=1&limit=10 204 in 1ms
+24-11-2024 23:28:29 info: GET /api/medias?page=1&limit=10 200 in 19ms
+24-11-2024 23:28:29 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:28:29 info: GET /api/medias?page=1&limit=10 304 in 3ms
+24-11-2024 23:28:34 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:28:34 error: Error: jwt malformed - JsonWebTokenError: jwt malformed
+    at Object.module.exports (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/jsonwebtoken/verify.js:70:17)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:7:36
+    at Generator.next (<anonymous>)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:27:12)
+    at authMiddleware (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:4:64)
+    at Layer.handle [as handle_request] (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:328:13)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:286:9
+24-11-2024 23:28:34 info: GET /api/medias?page=1&limit=10 500 in 4ms
+24-11-2024 23:28:34 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:28:34 error: Error: jwt malformed - JsonWebTokenError: jwt malformed
+    at Object.module.exports (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/jsonwebtoken/verify.js:70:17)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:7:36
+    at Generator.next (<anonymous>)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:27:12)
+    at authMiddleware (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:4:64)
+    at Layer.handle [as handle_request] (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:328:13)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:286:9
+24-11-2024 23:28:34 info: GET /api/medias?page=1&limit=10 500 in 3ms
+24-11-2024 23:31:16 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:31:16 info: OPTIONS /api/medias?page=1&limit=10 204 in 4ms
+24-11-2024 23:31:16 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:31:16 error: Error: jwt malformed - JsonWebTokenError: jwt malformed
+    at Object.module.exports (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/jsonwebtoken/verify.js:70:17)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:11:36
+    at Generator.next (<anonymous>)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:27:12)
+    at authMiddleware (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:4:64)
+    at Layer.handle [as handle_request] (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:328:13)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:286:9
+24-11-2024 23:31:16 info: GET /api/medias?page=1&limit=10 500 in 11ms
+24-11-2024 23:31:16 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:31:16 info: OPTIONS /api/medias?page=1&limit=10 204 in 0ms
+24-11-2024 23:31:16 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:31:16 error: Error: jwt malformed - JsonWebTokenError: jwt malformed
+    at Object.module.exports (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/jsonwebtoken/verify.js:70:17)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:11:36
+    at Generator.next (<anonymous>)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:27:12)
+    at authMiddleware (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:4:64)
+    at Layer.handle [as handle_request] (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:328:13)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:286:9
+24-11-2024 23:31:16 info: GET /api/medias?page=1&limit=10 500 in 1ms
+24-11-2024 23:31:18 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:31:18 error: Error: jwt malformed - JsonWebTokenError: jwt malformed
+    at Object.module.exports (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/jsonwebtoken/verify.js:70:17)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:11:36
+    at Generator.next (<anonymous>)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:27:12)
+    at authMiddleware (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:4:64)
+    at Layer.handle [as handle_request] (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:328:13)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:286:9
+24-11-2024 23:31:18 info: GET /api/medias?page=1&limit=10 500 in 3ms
+24-11-2024 23:31:18 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:31:18 error: Error: jwt malformed - JsonWebTokenError: jwt malformed
+    at Object.module.exports (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/jsonwebtoken/verify.js:70:17)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:11:36
+    at Generator.next (<anonymous>)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:27:12)
+    at authMiddleware (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:4:64)
+    at Layer.handle [as handle_request] (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:328:13)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:286:9
+24-11-2024 23:31:18 info: GET /api/medias?page=1&limit=10 500 in 1ms
+24-11-2024 23:31:39 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:31:39 info: OPTIONS /api/medias?page=1&limit=10 204 in 3ms
+24-11-2024 23:31:39 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:31:39 error: Error: jwt malformed - JsonWebTokenError: jwt malformed
+    at Object.module.exports (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/jsonwebtoken/verify.js:70:17)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:11:36
+    at Generator.next (<anonymous>)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:27:12)
+    at authMiddleware (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:4:64)
+    at Layer.handle [as handle_request] (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:328:13)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:286:9
+24-11-2024 23:31:39 info: GET /api/medias?page=1&limit=10 500 in 10ms
+24-11-2024 23:31:39 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:31:39 info: OPTIONS /api/medias?page=1&limit=10 204 in 0ms
+24-11-2024 23:31:39 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:31:39 error: Error: jwt malformed - JsonWebTokenError: jwt malformed
+    at Object.module.exports (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/jsonwebtoken/verify.js:70:17)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:11:36
+    at Generator.next (<anonymous>)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:27:12)
+    at authMiddleware (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:4:64)
+    at Layer.handle [as handle_request] (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:328:13)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:286:9
+24-11-2024 23:31:39 info: GET /api/medias?page=1&limit=10 500 in 1ms
+24-11-2024 23:31:58 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:31:58 info: OPTIONS /api/medias?page=1&limit=10 204 in 12ms
+24-11-2024 23:31:58 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:31:58 error: Error: jwt malformed - JsonWebTokenError: jwt malformed
+    at Object.module.exports (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/jsonwebtoken/verify.js:70:17)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:11:36
+    at Generator.next (<anonymous>)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:27:12)
+    at authMiddleware (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:4:64)
+    at Layer.handle [as handle_request] (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:328:13)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:286:9
+24-11-2024 23:31:58 info: GET /api/medias?page=1&limit=10 500 in 24ms
+24-11-2024 23:31:58 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:31:58 info: OPTIONS /api/medias?page=1&limit=10 204 in 1ms
+24-11-2024 23:31:59 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:31:59 error: Error: jwt malformed - JsonWebTokenError: jwt malformed
+    at Object.module.exports (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/jsonwebtoken/verify.js:70:17)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:11:36
+    at Generator.next (<anonymous>)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:27:12)
+    at authMiddleware (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:4:64)
+    at Layer.handle [as handle_request] (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:328:13)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:286:9
+24-11-2024 23:31:59 info: GET /api/medias?page=1&limit=10 500 in 12ms
+24-11-2024 23:36:47 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:36:47 info: OPTIONS /api/medias?page=1&limit=10 204 in 5ms
+24-11-2024 23:36:47 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:36:47 error: Error: Unauthorized request! - Error: Unauthorized request!
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:9:19
+    at Generator.next (<anonymous>)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:27:12)
+    at authMiddleware (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:4:64)
+    at Layer.handle [as handle_request] (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:328:13)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:346:12)
+24-11-2024 23:36:47 info: GET /api/medias?page=1&limit=10 500 in 7ms
+24-11-2024 23:36:47 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:36:47 info: OPTIONS /api/medias?page=1&limit=10 204 in 0ms
+24-11-2024 23:36:47 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:36:47 error: Error: Unauthorized request! - Error: Unauthorized request!
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:9:19
+    at Generator.next (<anonymous>)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:27:12)
+    at authMiddleware (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:4:64)
+    at Layer.handle [as handle_request] (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:328:13)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:346:12)
+24-11-2024 23:36:47 info: GET /api/medias?page=1&limit=10 500 in 1ms
+24-11-2024 23:36:53 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:36:53 info: OPTIONS /api/medias?page=1&limit=10 204 in 1ms
+24-11-2024 23:36:53 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:36:53 info: OPTIONS /api/medias?page=1&limit=10 204 in 1ms
+24-11-2024 23:36:53 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:36:53 error: Error: Unauthorized request! - Error: Unauthorized request!
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:9:19
+    at Generator.next (<anonymous>)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:27:12)
+    at authMiddleware (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:4:64)
+    at Layer.handle [as handle_request] (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:328:13)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:346:12)
+24-11-2024 23:36:53 info: GET /api/medias?page=1&limit=10 500 in 17ms
+24-11-2024 23:36:53 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:36:53 error: Error: Unauthorized request! - Error: Unauthorized request!
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:9:19
+    at Generator.next (<anonymous>)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:27:12)
+    at authMiddleware (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:4:64)
+    at Layer.handle [as handle_request] (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:328:13)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:346:12)
+24-11-2024 23:36:53 info: GET /api/medias?page=1&limit=10 500 in 14ms
+24-11-2024 23:37:16 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:37:16 info: OPTIONS /api/medias?page=1&limit=10 204 in 4ms
+24-11-2024 23:37:16 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:37:16 info: GET /api/medias?page=1&limit=10 403 in 3ms
+24-11-2024 23:37:16 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:37:16 info: OPTIONS /api/medias?page=1&limit=10 204 in 0ms
+24-11-2024 23:37:16 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:37:16 info: GET /api/medias?page=1&limit=10 403 in 1ms
+24-11-2024 23:38:08 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:38:08 info: OPTIONS /api/medias?page=1&limit=10 204 in 4ms
+24-11-2024 23:38:08 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:38:08 error: Error: Auth middleware: Unauthorized request - Error: Auth middleware: Unauthorized request
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:9:12
+    at Generator.next (<anonymous>)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:27:12)
+    at authMiddleware (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:4:64)
+    at Layer.handle [as handle_request] (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:328:13)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:346:12)
+24-11-2024 23:38:08 info: GET /api/medias?page=1&limit=10 403 in 8ms
+24-11-2024 23:38:08 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:38:08 info: OPTIONS /api/medias?page=1&limit=10 204 in 0ms
+24-11-2024 23:38:08 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:38:08 error: Error: Auth middleware: Unauthorized request - Error: Auth middleware: Unauthorized request
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:9:12
+    at Generator.next (<anonymous>)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:27:12)
+    at authMiddleware (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:4:64)
+    at Layer.handle [as handle_request] (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:328:13)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:346:12)
+24-11-2024 23:38:08 info: GET /api/medias?page=1&limit=10 403 in 1ms
+24-11-2024 23:38:25 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:38:25 info: OPTIONS /api/medias?page=1&limit=10 204 in 10ms
+24-11-2024 23:38:25 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:38:25 info: GET /api/medias?page=1&limit=10 403 in 4ms
+24-11-2024 23:38:25 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:38:25 info: OPTIONS /api/medias?page=1&limit=10 204 in 0ms
+24-11-2024 23:38:25 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:38:25 info: GET /api/medias?page=1&limit=10 403 in 0ms
+24-11-2024 23:38:32 info: OPTIONS /api/auth/sign-in
+24-11-2024 23:38:32 info: OPTIONS /api/auth/sign-in 204 in 0ms
+24-11-2024 23:38:32 info: POST /api/auth/sign-in
+24-11-2024 23:38:32 info: POST /api/auth/sign-in 201 in 179ms
+24-11-2024 23:38:32 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:38:32 info: OPTIONS /api/medias?page=1&limit=10 204 in 2ms
+24-11-2024 23:38:32 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:38:32 info: OPTIONS /api/medias?page=1&limit=10 204 in 0ms
+24-11-2024 23:38:32 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:38:32 info: GET /api/medias?page=1&limit=10 403 in 0ms
+24-11-2024 23:38:32 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:38:32 info: GET /api/medias?page=1&limit=10 403 in 1ms
+24-11-2024 23:38:52 info: OPTIONS /api/auth/sign-in
+24-11-2024 23:38:52 info: OPTIONS /api/auth/sign-in 204 in 4ms
+24-11-2024 23:38:52 info: POST /api/auth/sign-in
+24-11-2024 23:38:52 info: POST /api/auth/sign-in 201 in 159ms
+24-11-2024 23:38:52 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:38:52 info: OPTIONS /api/medias?page=1&limit=10 204 in 3ms
+24-11-2024 23:38:52 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:38:52 info: OPTIONS /api/medias?page=1&limit=10 204 in 1ms
+24-11-2024 23:38:52 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:38:52 error: Error: jwt malformed - JsonWebTokenError: jwt malformed
+    at Object.module.exports (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/jsonwebtoken/verify.js:70:17)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:12:36
+    at Generator.next (<anonymous>)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:27:12)
+    at authMiddleware (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:4:64)
+    at Layer.handle [as handle_request] (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:328:13)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:286:9
+24-11-2024 23:38:52 info: GET /api/medias?page=1&limit=10 500 in 6ms
+24-11-2024 23:38:52 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:38:52 error: Error: jwt malformed - JsonWebTokenError: jwt malformed
+    at Object.module.exports (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/jsonwebtoken/verify.js:70:17)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:12:36
+    at Generator.next (<anonymous>)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:27:12)
+    at authMiddleware (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:4:64)
+    at Layer.handle [as handle_request] (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:328:13)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:286:9
+24-11-2024 23:38:52 info: GET /api/medias?page=1&limit=10 500 in 4ms
+24-11-2024 23:39:05 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:39:05 info: OPTIONS /api/medias?page=1&limit=10 204 in 3ms
+24-11-2024 23:39:05 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:39:05 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:39:05 info: OPTIONS /api/medias?page=1&limit=10 204 in 0ms
+24-11-2024 23:39:05 info: GET /api/medias?page=1&limit=10 200 in 87ms
+24-11-2024 23:39:05 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:39:05 info: GET /api/medias?page=1&limit=10 304 in 4ms
+24-11-2024 23:39:11 info: OPTIONS /api/auth/sign-in
+24-11-2024 23:39:11 info: OPTIONS /api/auth/sign-in 204 in 1ms
+24-11-2024 23:39:12 info: POST /api/auth/sign-in
+24-11-2024 23:39:12 info: POST /api/auth/sign-in 201 in 118ms
+24-11-2024 23:39:12 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:39:12 info: OPTIONS /api/medias?page=1&limit=10 204 in 0ms
+24-11-2024 23:39:12 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:39:12 info: OPTIONS /api/medias?page=1&limit=10 204 in 0ms
+24-11-2024 23:39:12 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:39:12 info: GET /api/medias?page=1&limit=10 304 in 17ms
+24-11-2024 23:39:12 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:39:12 info: GET /api/medias?page=1&limit=10 304 in 3ms
+24-11-2024 23:39:25 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:39:25 info: OPTIONS /api/medias?page=1&limit=10 204 in 1ms
+24-11-2024 23:39:25 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:39:25 info: OPTIONS /api/medias?page=1&limit=10 204 in 0ms
+24-11-2024 23:39:25 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:39:25 error: Error: jwt malformed - JsonWebTokenError: jwt malformed
+    at Object.module.exports (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/jsonwebtoken/verify.js:70:17)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:12:36
+    at Generator.next (<anonymous>)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:27:12)
+    at authMiddleware (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:4:64)
+    at Layer.handle [as handle_request] (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:328:13)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:286:9
+24-11-2024 23:39:25 info: GET /api/medias?page=1&limit=10 500 in 11ms
+24-11-2024 23:39:25 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:39:25 error: Error: jwt malformed - JsonWebTokenError: jwt malformed
+    at Object.module.exports (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/jsonwebtoken/verify.js:70:17)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:12:36
+    at Generator.next (<anonymous>)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:27:12)
+    at authMiddleware (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:4:64)
+    at Layer.handle [as handle_request] (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:328:13)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:286:9
+24-11-2024 23:39:25 info: GET /api/medias?page=1&limit=10 500 in 1ms
+24-11-2024 23:39:44 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:39:44 info: OPTIONS /api/medias?page=1&limit=10 204 in 9ms
+24-11-2024 23:39:44 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:39:44 error: Error: jwt malformed - JsonWebTokenError: jwt malformed
+    at Object.module.exports (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/jsonwebtoken/verify.js:70:17)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:13:36
+    at Generator.next (<anonymous>)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:27:12)
+    at authMiddleware (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:4:64)
+    at Layer.handle [as handle_request] (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:328:13)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:286:9
+24-11-2024 23:39:44 info: GET /api/medias?page=1&limit=10 500 in 4ms
+24-11-2024 23:39:44 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:39:44 info: OPTIONS /api/medias?page=1&limit=10 204 in 0ms
+24-11-2024 23:39:44 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:39:44 error: Error: jwt malformed - JsonWebTokenError: jwt malformed
+    at Object.module.exports (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/jsonwebtoken/verify.js:70:17)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:13:36
+    at Generator.next (<anonymous>)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:27:12)
+    at authMiddleware (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:4:64)
+    at Layer.handle [as handle_request] (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:328:13)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:286:9
+24-11-2024 23:39:44 info: GET /api/medias?page=1&limit=10 500 in 1ms
+24-11-2024 23:39:58 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:39:58 info: OPTIONS /api/medias?page=1&limit=10 204 in 3ms
+24-11-2024 23:39:58 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:39:58 error: Error: jwt malformed - JsonWebTokenError: jwt malformed
+    at Object.module.exports (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/jsonwebtoken/verify.js:70:17)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:13:36
+    at Generator.next (<anonymous>)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:27:12)
+    at authMiddleware (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:4:64)
+    at Layer.handle [as handle_request] (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:328:13)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:286:9
+24-11-2024 23:39:58 info: GET /api/medias?page=1&limit=10 500 in 5ms
+24-11-2024 23:39:58 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:39:58 info: OPTIONS /api/medias?page=1&limit=10 204 in 0ms
+24-11-2024 23:39:58 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:39:58 error: Error: jwt malformed - JsonWebTokenError: jwt malformed
+    at Object.module.exports (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/jsonwebtoken/verify.js:70:17)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:13:36
+    at Generator.next (<anonymous>)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:27:12)
+    at authMiddleware (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:4:64)
+    at Layer.handle [as handle_request] (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:328:13)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:286:9
+24-11-2024 23:39:58 info: GET /api/medias?page=1&limit=10 500 in 1ms
+24-11-2024 23:40:20 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:40:20 info: OPTIONS /api/medias?page=1&limit=10 204 in 4ms
+24-11-2024 23:40:20 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:40:20 error: Error: jwt malformed - JsonWebTokenError: jwt malformed
+    at Object.module.exports (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/jsonwebtoken/verify.js:70:17)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:13:36
+    at Generator.next (<anonymous>)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:27:12)
+    at authMiddleware (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:4:64)
+    at Layer.handle [as handle_request] (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:328:13)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:286:9
+24-11-2024 23:40:20 info: GET /api/medias?page=1&limit=10 500 in 11ms
+24-11-2024 23:40:21 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:40:21 info: OPTIONS /api/medias?page=1&limit=10 204 in 2ms
+24-11-2024 23:40:21 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:40:21 error: Error: jwt malformed - JsonWebTokenError: jwt malformed
+    at Object.module.exports (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/jsonwebtoken/verify.js:70:17)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:13:36
+    at Generator.next (<anonymous>)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:27:12)
+    at authMiddleware (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:4:64)
+    at Layer.handle [as handle_request] (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:328:13)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:286:9
+24-11-2024 23:40:21 info: GET /api/medias?page=1&limit=10 500 in 2ms
+24-11-2024 23:40:21 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:40:21 error: Error: jwt malformed - JsonWebTokenError: jwt malformed
+    at Object.module.exports (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/jsonwebtoken/verify.js:70:17)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:13:36
+    at Generator.next (<anonymous>)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:27:12)
+    at authMiddleware (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:4:64)
+    at Layer.handle [as handle_request] (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:328:13)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:286:9
+24-11-2024 23:40:21 info: GET /api/medias?page=1&limit=10 500 in 2ms
+24-11-2024 23:40:21 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:40:21 error: Error: jwt malformed - JsonWebTokenError: jwt malformed
+    at Object.module.exports (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/jsonwebtoken/verify.js:70:17)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:13:36
+    at Generator.next (<anonymous>)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:27:12)
+    at authMiddleware (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:4:64)
+    at Layer.handle [as handle_request] (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:328:13)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:286:9
+24-11-2024 23:40:21 info: GET /api/medias?page=1&limit=10 500 in 2ms
+24-11-2024 23:40:24 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:40:24 error: Error: jwt malformed - JsonWebTokenError: jwt malformed
+    at Object.module.exports (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/jsonwebtoken/verify.js:70:17)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:13:36
+    at Generator.next (<anonymous>)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:27:12)
+    at authMiddleware (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:4:64)
+    at Layer.handle [as handle_request] (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:328:13)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:286:9
+24-11-2024 23:40:24 info: GET /api/medias?page=1&limit=10 500 in 6ms
+24-11-2024 23:40:25 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:40:25 error: Error: jwt malformed - JsonWebTokenError: jwt malformed
+    at Object.module.exports (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/jsonwebtoken/verify.js:70:17)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:13:36
+    at Generator.next (<anonymous>)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:27:12)
+    at authMiddleware (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:4:64)
+    at Layer.handle [as handle_request] (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:328:13)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:286:9
+24-11-2024 23:40:25 info: GET /api/medias?page=1&limit=10 500 in 3ms
+24-11-2024 23:40:25 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:40:25 error: Error: jwt malformed - JsonWebTokenError: jwt malformed
+    at Object.module.exports (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/jsonwebtoken/verify.js:70:17)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:13:36
+    at Generator.next (<anonymous>)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:27:12)
+    at authMiddleware (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:4:64)
+    at Layer.handle [as handle_request] (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:328:13)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:286:9
+24-11-2024 23:40:25 info: GET /api/medias?page=1&limit=10 500 in 1ms
+24-11-2024 23:40:25 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:40:25 error: Error: jwt malformed - JsonWebTokenError: jwt malformed
+    at Object.module.exports (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/jsonwebtoken/verify.js:70:17)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:13:36
+    at Generator.next (<anonymous>)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:27:12)
+    at authMiddleware (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:4:64)
+    at Layer.handle [as handle_request] (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:328:13)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:286:9
+24-11-2024 23:40:25 info: GET /api/medias?page=1&limit=10 500 in 3ms
+24-11-2024 23:40:26 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:40:26 info: OPTIONS /api/medias?page=1&limit=10 204 in 0ms
+24-11-2024 23:40:26 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:40:26 error: Error: jwt malformed - JsonWebTokenError: jwt malformed
+    at Object.module.exports (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/jsonwebtoken/verify.js:70:17)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:13:36
+    at Generator.next (<anonymous>)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:27:12)
+    at authMiddleware (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:4:64)
+    at Layer.handle [as handle_request] (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:328:13)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:286:9
+24-11-2024 23:40:26 info: GET /api/medias?page=1&limit=10 500 in 2ms
+24-11-2024 23:40:27 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:40:27 info: OPTIONS /api/medias?page=1&limit=10 204 in 2ms
+24-11-2024 23:40:27 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:40:27 error: Error: jwt malformed - JsonWebTokenError: jwt malformed
+    at Object.module.exports (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/jsonwebtoken/verify.js:70:17)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:13:36
+    at Generator.next (<anonymous>)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:27:12)
+    at authMiddleware (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:4:64)
+    at Layer.handle [as handle_request] (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:328:13)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:286:9
+24-11-2024 23:40:27 info: GET /api/medias?page=1&limit=10 500 in 4ms
+24-11-2024 23:40:27 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:40:27 info: OPTIONS /api/medias?page=1&limit=10 204 in 0ms
+24-11-2024 23:40:27 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:40:27 error: Error: jwt malformed - JsonWebTokenError: jwt malformed
+    at Object.module.exports (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/jsonwebtoken/verify.js:70:17)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:13:36
+    at Generator.next (<anonymous>)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:27:12)
+    at authMiddleware (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:4:64)
+    at Layer.handle [as handle_request] (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:328:13)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:286:9
+24-11-2024 23:40:27 info: GET /api/medias?page=1&limit=10 500 in 11ms
+24-11-2024 23:40:27 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:40:27 error: Error: jwt malformed - JsonWebTokenError: jwt malformed
+    at Object.module.exports (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/jsonwebtoken/verify.js:70:17)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:13:36
+    at Generator.next (<anonymous>)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:27:12)
+    at authMiddleware (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:4:64)
+    at Layer.handle [as handle_request] (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:328:13)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:286:9
+24-11-2024 23:40:27 info: GET /api/medias?page=1&limit=10 500 in 2ms
+24-11-2024 23:40:41 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:40:41 info: OPTIONS /api/medias?page=1&limit=10 204 in 3ms
+24-11-2024 23:40:41 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:40:41 info: OPTIONS /api/medias?page=1&limit=10 204 in 0ms
+24-11-2024 23:40:41 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:40:41 error: Error: jwt malformed - JsonWebTokenError: jwt malformed
+    at Object.module.exports (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/jsonwebtoken/verify.js:70:17)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:13:36
+    at Generator.next (<anonymous>)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:27:12)
+    at authMiddleware (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:4:64)
+    at Layer.handle [as handle_request] (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:328:13)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:286:9
+24-11-2024 23:40:41 info: GET /api/medias?page=1&limit=10 500 in 4ms
+24-11-2024 23:40:41 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:40:41 error: Error: jwt malformed - JsonWebTokenError: jwt malformed
+    at Object.module.exports (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/jsonwebtoken/verify.js:70:17)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:13:36
+    at Generator.next (<anonymous>)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:27:12)
+    at authMiddleware (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/src/middlewares/authMiddleware.ts:4:64)
+    at Layer.handle [as handle_request] (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:328:13)
+    at /Users/phuvietdang/Desktop/Projects/personal/momos-assessment/server/node_modules/express/lib/router/index.js:286:9
+24-11-2024 23:40:41 info: GET /api/medias?page=1&limit=10 500 in 0ms
+24-11-2024 23:40:49 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:40:49 info: OPTIONS /api/medias?page=1&limit=10 204 in 4ms
+24-11-2024 23:40:49 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:40:49 info: GET /api/medias?page=1&limit=10 403 in 3ms
+24-11-2024 23:40:49 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:40:49 info: OPTIONS /api/medias?page=1&limit=10 204 in 1ms
+24-11-2024 23:40:49 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:40:49 info: GET /api/medias?page=1&limit=10 403 in 1ms
+24-11-2024 23:41:59 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:41:59 info: OPTIONS /api/medias?page=1&limit=10 204 in 7ms
+24-11-2024 23:41:59 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:41:59 info: GET /api/medias?page=1&limit=10 403 in 6ms
+24-11-2024 23:41:59 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:41:59 info: OPTIONS /api/medias?page=1&limit=10 204 in 1ms
+24-11-2024 23:41:59 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:41:59 info: GET /api/medias?page=1&limit=10 403 in 1ms
+24-11-2024 23:42:05 info: OPTIONS /api/auth/sign-in
+24-11-2024 23:42:05 info: OPTIONS /api/auth/sign-in 204 in 1ms
+24-11-2024 23:42:05 info: POST /api/auth/sign-in
+24-11-2024 23:42:06 info: POST /api/auth/sign-in 201 in 197ms
+24-11-2024 23:42:06 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:42:06 info: OPTIONS /api/medias?page=1&limit=10 204 in 1ms
+24-11-2024 23:42:06 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:42:06 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:42:06 info: OPTIONS /api/medias?page=1&limit=10 204 in 1ms
+24-11-2024 23:42:06 info: GET /api/medias?page=1&limit=10 200 in 12ms
+24-11-2024 23:42:06 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:42:06 info: GET /api/medias?page=1&limit=10 304 in 4ms
+24-11-2024 23:44:34 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:44:34 info: OPTIONS /api/medias?page=1&limit=10 204 in 1ms
+24-11-2024 23:44:34 info: OPTIONS /api/medias?page=1&limit=10
+24-11-2024 23:44:34 info: OPTIONS /api/medias?page=1&limit=10 204 in 0ms
+24-11-2024 23:44:34 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:44:34 info: GET /api/medias?page=1&limit=10
+24-11-2024 23:44:34 info: GET /api/medias?page=1&limit=10 200 in 95ms
+24-11-2024 23:44:34 info: GET /api/medias?page=1&limit=10 200 in 109ms
