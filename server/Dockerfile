@@ -26,6 +26,7 @@ ENV PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium-browser
 
 COPY --from=build /app/package.json /app/yarn.lock /app/tsconfig.json /app/.env /app/.sequelizerc /app/types.d.ts ./
 COPY --from=build /app/build ./build
+
 COPY --from=build /app/node_modules ./node_modules
 
 EXPOSE 3001

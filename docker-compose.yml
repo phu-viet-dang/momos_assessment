@@ -20,7 +20,7 @@ services:
       dockerfile: Dockerfile
     image: scraper-fe:latest
     ports:
-      - 3000:3000
+      - 80:80
     networks:
       - local-network
     depends_on:
